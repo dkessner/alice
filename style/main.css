@@ -37,12 +37,10 @@
 body {
     background-color: black;
     font-family: 'aquiline', serif;
-    font-size: 250%;
 }
 
 /* Simple Button styles*/
 button {
-
 }
 
 /* Simple Button Style on Hover */
@@ -115,7 +113,7 @@ button:hover {
 
 /* Text Box styling */
 [data-component="text-box"] {
-
+    font-size: 200%;
 }
 
 /* Character Name Style */
@@ -148,12 +146,14 @@ button:hover {
 
 /* Quick Menu Style */
 [data-component="quick-menu"] {
-
+    font-family: 'aquiline';
+    height: 5rem;
+    max-height: 5rem;
 }
 
 /* Quick Menu Buttons Style */
 [data-component="quick-menu"] span {
-
+    font-size: 200%;
 }
 
 /* Quick Menu Buttons Style on Hover */
