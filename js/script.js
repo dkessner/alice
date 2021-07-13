@@ -62,12 +62,23 @@ monogatari.assets ('videos', {
 
 });
 
-// Define the images used in the game.
-monogatari.assets ('images', {
+
+const imageInfo = {
     cat: 'cat.png',
-    alice1: 'Lewis-Carroll-Alice-Under-Ground-1.jpg',
-    alice2: 'Lewis-Carroll-Alice-Under-Ground-2.jpg'
-});
+    //  alice1: 'Lewis-Carroll-Alice-Under-Ground-1.jpg',
+    //  alice2: 'Lewis-Carroll-Alice-Under-Ground-2.jpg'
+    //  ... 
+};
+
+(function initializeImageInfo() {
+    for (let i=1; i<=42; i++)
+        imageInfo["alice"+i] = "Lewis-Carroll-Alice-Under-Ground-" + i + ".jpg"
+})();
+
+
+// Define the images used in the game.
+monogatari.assets ('images', imageInfo);
+
 
 // Define the backgrounds for each scene.
 monogatari.assets ('scenes', {
