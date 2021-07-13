@@ -107,6 +107,7 @@ const myscript =
     ],
 
     'alice1': [
+        /*
         'show image alice1 with fadeIn',
         '"What is the use of a book", thought Alice, "without pictures or conversations?"',
         'hide image alice1 with fadeOut',
@@ -134,15 +135,34 @@ const myscript =
         'show image alice5 with fadeIn',
         'EAT ME',
         'hide image alice5 with fadeOut',
-
+*/
         'show image alice6 with fadeIn',
         '“Curiouser and curiouser!” cried Alice',
         'hide image alice6 with fadeOut',
 
         'show image alice7 with fadeIn',
-        'the quick brown fox',
+        'It was the White Rabbit returning, splendidly dressed',
+        'with a pair of white kid gloves in one hand and a large fan in the other',
+        'he came trotting along in a great hurry, muttering to himself as he came',
         'hide image alice7 with fadeOut',
 
+        'show image alice8 with fadeIn',
+        '"I wish I hadn’t cried so much!" said Alice, as she swam about, trying to find her way out.',
+        'I shall be punished for it now, I suppose, by being drowned in my own tears!',
+        'That will be a queer thing, to be sure! However, everything is queer to-day.',
+        'hide image alice8 with fadeOut',
+
+        'show image alice9 with fadeIn',
+        'the quick brown fox',
+        'hide image alice9 with fadeOut',
+
+        'show image alice10 with fadeIn',
+        'the quick brown fox',
+        'hide image alice10 with fadeOut',
+
+        'show image alice11 with fadeIn',
+        'the quick brown fox',
+        'hide image alice11 with fadeOut',
 
         'jump alice2'
     ],
