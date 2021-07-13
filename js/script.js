@@ -100,14 +100,14 @@ const myscript =
 {
     'Start': [
         'Alice',
-        'jump alice1',
+        'jump main',
         'show image cat with fadeIn',
         ' ',
         'hide image cat with fadeOut',
     ],
 
-    'alice1': [
-        /*
+    'main': [
+
         'show image alice1 with fadeIn',
         '"What is the use of a book", thought Alice, "without pictures or conversations?"',
         'hide image alice1 with fadeOut',
@@ -130,14 +130,13 @@ const myscript =
         'show image alice5 with fadeIn',
         'DRINK ME',
         '"What a curious feeling!" said Alice',
+        'And so it was indeed: she was now only ten inches high',
         'hide image alice5 with fadeOut',
 
-        'show image alice5 with fadeIn',
-        'EAT ME',
-        'hide image alice5 with fadeOut',
-*/
         'show image alice6 with fadeIn',
-        '“Curiouser and curiouser!” cried Alice',
+        'EAT ME',
+        '"Curiouser and curiouser!" cried Alice',
+        'Just then her head struck against the roof of the hall: in fact she was now more than nine feet high',
         'hide image alice6 with fadeOut',
 
         'show image alice7 with fadeIn',
@@ -153,31 +152,45 @@ const myscript =
         'hide image alice8 with fadeOut',
 
         'show image alice9 with fadeIn',
-        'the quick brown fox',
+        'O Mouse, do you know the way out of this pool? I am very tired of swimming about here, O Mouse!',
         'hide image alice9 with fadeOut',
 
         'show image alice10 with fadeIn',
-        'the quick brown fox',
+        'It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it',
+        'there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures',
+        'Alice led the way, and the whole party swam to the shore',
         'hide image alice10 with fadeOut',
 
         'show image alice11 with fadeIn',
-        'the quick brown fox',
+        'They were indeed a queer-looking party that assembled on the bank',
+        'the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable',
         'hide image alice11 with fadeOut',
 
-        'jump alice2'
+        'show image alice12 with fadeIn',
+        'clear',
+        'wait',
+        'hide image alice12 with fadeOut',
+
+        'show image alice13 with fadeIn',
+        'they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over',
+        'The race is over! But who has won?',
+        'Everybody has won, and all must have prizes',
+        'hide image alice13 with fadeOut',
+
+        'show image alice14 with fadeIn',
+        'Very soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone',
+        '"He took me for his housemaid," she said to herself as she ran',
+        'hide image alice14 with fadeOut',
+
+        'show image alice15 with fadeIn',
+        'There was no label this time with the words DRINK ME',
+        'nevertheless she uncorked it and put it to her lips', 
+        'I know something interesting is sure to happen',
+        'hide image alice15 with fadeOut',
+
+        'jump end'
     ],
     
-    'alice2': [
-        'end',
-        'show image alice2 with fadeIn',
-        `So she was considering in her own mind 
-         (as well as she could, 
-        for the hot day made her feel very sleepy and stupid)`, 
-        `whether the pleasure of making a daisy-chain would be worth the
-        trouble of getting up and picking the daisies`,
-        'hide image alice2 with fadeOut',
-    ],
-
     'end': [
         'end'
     ]
