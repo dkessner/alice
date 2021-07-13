@@ -100,24 +100,55 @@ const myscript =
 {
     'Start': [
         'Alice',
+        'jump alice1',
         'show image cat with fadeIn',
         ' ',
         'hide image cat with fadeOut',
-        'jump alice1'
     ],
 
     'alice1': [
         'show image alice1 with fadeIn',
-        'Alice was beginning to get very tired of sitting by her sister on the bank',
-        'and of having nothing to do',
-        'once or twice she had peeped into the book her sister was reading',
-        'but it had no pictures or conversations in it',
+        '"What is the use of a book", thought Alice, "without pictures or conversations?"',
         'hide image alice1 with fadeOut',
-        '“and what is the use of a book,” thought Alice “without pictures or conversations?”',
+
+        'show image alice2 with fadeIn',
+        'Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do.',
+        'hide image alice2 with fadeOut',
+
+        'show image alice3 with fadeIn',
+        'suddenly a White Rabbit with pink eyes ran close by her',
+        '"Oh dear! Oh dear! I shall be late!"',
+        'hide image alice3 with fadeOut',
+
+        'show image alice4 with fadeIn',
+        'The rabbit-hole went straight on like a tunnel for some way',
+        'she found herself falling down a very deep well',
+        'Down, down, down. Would the fall never come to an end?',
+        'hide image alice4 with fadeOut',
+
+        'show image alice5 with fadeIn',
+        'DRINK ME',
+        '"What a curious feeling!" said Alice',
+        'hide image alice5 with fadeOut',
+
+        'show image alice5 with fadeIn',
+        'EAT ME',
+        'hide image alice5 with fadeOut',
+
+        'show image alice6 with fadeIn',
+        '“Curiouser and curiouser!” cried Alice',
+        'hide image alice6 with fadeOut',
+
+        'show image alice7 with fadeIn',
+        'the quick brown fox',
+        'hide image alice7 with fadeOut',
+
+
         'jump alice2'
     ],
     
     'alice2': [
+        'end',
         'show image alice2 with fadeIn',
         `So she was considering in her own mind 
          (as well as she could, 
@@ -125,7 +156,6 @@ const myscript =
         `whether the pleasure of making a daisy-chain would be worth the
         trouble of getting up and picking the daisies`,
         'hide image alice2 with fadeOut',
-        'when suddenly a White Rabbit with pink eyes ran close by her.',
     ],
 
     'end': [
