@@ -100,16 +100,16 @@ const myscript =
 {
     'Start': [
         'Alice',
-
+        'jump main',
         'show image cat with fadeIn',
         '',
         'hide image cat with fadeOut',
         'wait 2000',
-
         'jump main',
     ],
 
     'main': [
+        /*
 
         'show image alice1 with fadeIn',
         '"What is the use of a book", thought Alice, "without pictures or conversations?"',
@@ -294,20 +294,65 @@ const myscript =
         `"You must be," said the Cat, "or you wouldn't have come here."`,
         'hide image alice30 with fadeOut',
 
-// current
-
         'show image alice31 with fadeIn',
-        '',
+        '"Would you tell me," said Alice, a little timidly, "why you are painting those roses?"',
+        'The Queen! The Queen!',
         'hide image alice31 with fadeOut',
 
         'show image alice32 with fadeIn',
-        '',
+        'Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion',
+        'and, last of all this grand procession, came the king and queen of hearts',
         'hide image alice32 with fadeOut',
 
         'show image alice33 with fadeIn',
-        '',
+        'The Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed "Off with her head!"',
+        '"Are their heads off?" shouted the Queen.  "Can you play croquet?"',
         'hide image alice33 with fadeOut',
 
+
+
+        'show image alice34 with fadeIn',
+        'Alice thought she had never seen such a curious croquet-ground in her life',
+        'the balls were live hedgehogs, the mallets live flamingoes', 
+        'hide image alice34 with fadeOut',
+
+        'show image alice35 with fadeIn',
+        `"No," said Alice. "I don't even know what a Mock Turtle is."`,
+        `"It's the thing Mock Turtle Soup is made from," said the Queen.`,
+        '"Up, lazy thing!" said the Queen,',
+        '"take this young lady to see the Mock Turtle, and to hear his history"',
+        'hide image alice35 with fadeOut',
+
+*/
+    // current
+
+        'show image alice36 with fadeIn',
+        '',
+        'hide image alice36 with fadeOut',
+
+        'show image alice37 with fadeIn',
+        '',
+        'hide image alice37 with fadeOut',
+
+        'show image alice38 with fadeIn',
+        '',
+        'hide image alice38 with fadeOut',
+
+        'show image alice39 with fadeIn',
+        '',
+        'hide image alice39 with fadeOut',
+
+        'show image alice40 with fadeIn',
+        '',
+        'hide image alice40 with fadeOut',
+
+        'show image alice41 with fadeIn',
+        '',
+        'hide image alice41 with fadeOut',
+
+        'show image alice42 with fadeIn',
+        '',
+        'hide image alice42 with fadeOut',
 
         'jump end'
     ],
