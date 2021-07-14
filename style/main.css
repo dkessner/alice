@@ -41,6 +41,8 @@ body {
 
 /* Simple Button styles*/
 button {
+    font-size: 300%;
+    height: 125%;
 }
 
 /* Simple Button Style on Hover */
@@ -66,7 +68,6 @@ button:hover {
 
 /* Main Menu Buttons Styling */
 [data-screen="main"] button {
-
 }
 
 /**

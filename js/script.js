@@ -100,10 +100,12 @@ const myscript =
 {
     'Start': [
         'Alice',
+
         'show image cat with fadeIn',
         '',
         'hide image cat with fadeOut',
         'wait 2000',
+
         'jump main',
     ],
 
@@ -145,6 +147,7 @@ const myscript =
         'It was the White Rabbit returning, splendidly dressed',
         'with a pair of white kid gloves in one hand and a large fan in the other',
         'he came trotting along in a great hurry, muttering to himself as he came',
+        '"Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!"',
         'hide image alice7 with fadeOut',
 
         'show image alice8 with fadeIn',
@@ -227,24 +230,84 @@ const myscript =
         'hide image alice22 with fadeOut',
 
         'show image alice23 with fadeIn',
-        '', 
+        'nvl "You are old, Father William,” the young man said, "And your hair has become very white"', 
+        'nvl "And yet you incessantly stand on your head. Do you think, at your age, it is right?"',
+        'nvl "In my youth," Father William replied to his son, "I feared it might injure the brain"',
+        'nvl "But, now that I’m perfectly sure I have none. Why, I do it again and again.',
+        '',
         'hide image alice23 with fadeOut',
 
         'show image alice24 with fadeIn',
-        '', 
+        'nvl "You are old," said the youth, "as I mentioned before, and have grown most uncommonly fat"',
+        'nvl "Yet you turned a back-somersault in at the door.  Pray, what is the reason of that?"',
+        'nvl "In my youth," said the sage, as he shook his grey locks, "I kept all my limbs very supple"', 
+        'nvl "By the use of this ointment — one shilling the box — Allow me to sell you a couple?"',
+        '',
         'hide image alice24 with fadeOut',
 
         'show image alice25 with fadeIn',
-        '', 
+        'nvl "You are old," said the youth, "and your jaws are too weak for anything tougher than suet"',
+        'nvl "Yet you finished the goose, with the bones and the beak.  Pray, how did you manage to do it?"',
+        'nvl "In my youth," said his father, "I took to the law, and argued each case with my wife"',
+        'nvl "And the muscular strength, which it gave to my jaw, has lasted the rest of my life."',
+        '',
         'hide image alice25 with fadeOut',
 
         'show image alice26 with fadeIn',
-        '', 
+        'nvl "You are old," said the youth, "one would hardly suppose that your eye was as steady as ever"',
+        'nvl "Yet you balanced an eel on the end of your nose.  What made you so awfully clever?"',
+        `nvl "I have answered three questions, and that is enough," said his father, "don't give yourself airs!"`,
+        'nvl "Do you think I can listen all day to such stuff?  Be off, or I’ll kick you down stairs!"',
+        '',
         'hide image alice26 with fadeOut',
 
         'show image alice27 with fadeIn',
-        '', 
+        '"That is not said right," said the Caterpillar.',
+        '"It is wrong from beginning to end," said the Caterpillar decidedly, and there was silence for some minutes.',
+        'In a minute or two the Caterpillar took the hookah out of its mouth and yawned once or twice, and shook itself', 
         'hide image alice27 with fadeOut',
+
+        'show image alice28 with fadeIn',
+        'Then it got down off the mushroom, and crawled away in the grass, merely remarking as it went,',
+        '"One side will make you grow taller, and the other side will make you grow shorter."',
+        '"One side of what? The other side of what?" thought Alice to herself',
+        '"Of the mushroom," said the Caterpillar, just as if she had asked it aloud',
+        'all she could see was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her',
+        'hide image alice28 with fadeOut',
+
+        'show image alice29 with fadeIn',
+        'a sharp hiss made her draw back in a hurry',
+        'a large pigeon had flown into her face, and was beating her violently with its wings',
+        '"Serpent!" screamed the Pigeon',
+        `"I'm not a serpent!" said Alice indignantly. "Let me alone!"`,
+        'hide image alice29 with fadeOut',
+
+        'show image alice30 with fadeIn',
+        'Alice went timidly up to the door, and knocked',
+        '"But what am I to do?" said Alice',
+        'she opened the door and went in',
+        'Please would you tell me why your cat grins like that?',
+        `"It's a Cheshire cat," said the Duchess, "and that's why."`, 
+        '"But I don’t want to go among mad people," Alice remarked',
+        `"Oh, you can’t help that," said the Cat: "we're all mad here. I'm mad. You're mad."`,
+        `"How do you know I'm mad?" said Alice`,
+        `"You must be," said the Cat, "or you wouldn't have come here."`,
+        'hide image alice30 with fadeOut',
+
+// current
+
+        'show image alice31 with fadeIn',
+        '',
+        'hide image alice31 with fadeOut',
+
+        'show image alice32 with fadeIn',
+        '',
+        'hide image alice32 with fadeOut',
+
+        'show image alice33 with fadeIn',
+        '',
+        'hide image alice33 with fadeOut',
+
 
         'jump end'
     ],
