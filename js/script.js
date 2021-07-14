@@ -100,10 +100,11 @@ const myscript =
 {
     'Start': [
         'Alice',
-        'jump main',
         'show image cat with fadeIn',
-        ' ',
+        '',
         'hide image cat with fadeOut',
+        'wait 2000',
+        'jump main',
     ],
 
     'main': [
@@ -128,13 +129,14 @@ const myscript =
         'hide image alice4 with fadeOut',
 
         'show image alice5 with fadeIn',
-        'DRINK ME',
+        'she found a little bottle',
+        'round the neck of the bottle was a paper label, with the words DRINK ME',
         '"What a curious feeling!" said Alice',
         'And so it was indeed: she was now only ten inches high',
         'hide image alice5 with fadeOut',
 
         'show image alice6 with fadeIn',
-        'EAT ME',
+        'she found a very small cake, on which the words EAT ME were beautifully marked in currants',
         '"Curiouser and curiouser!" cried Alice',
         'Just then her head struck against the roof of the hall: in fact she was now more than nine feet high',
         'hide image alice6 with fadeOut',
@@ -187,6 +189,62 @@ const myscript =
         'nevertheless she uncorked it and put it to her lips', 
         'I know something interesting is sure to happen',
         'hide image alice15 with fadeOut',
+
+        'show image alice16 with fadeIn',
+        "I do wish I hadn’t drunk quite so much!",
+        'hide image alice16 with fadeOut',
+
+        'show image alice17 with fadeIn',
+        'She went on growing, and growing',
+        'hide image alice17 with fadeOut',
+
+        'show image alice18 with fadeIn',
+        'Still she went on growing, and, as a last resource, she put one arm out of the window, and one foot up the chimney',
+        '"Oh! So Bill’s got to come down the chimney, has he?" said Alice to herself',
+        'hide image alice18 with fadeOut',
+
+        'show image alice19 with fadeIn',
+        'She drew her foot as far down the chimney as she could, and waited till she heard a little animal',
+        'she gave one sharp kick, and waited to see what would happen next',
+        'There goes Bill!',
+        'hide image alice19 with fadeOut',
+
+        'show image alice20 with fadeIn',
+        'Hold up his head.  Brandy now.  Don’t choke him', 
+        'How was it, old fellow? What happened to you? Tell us all about it!',
+        'hide image alice20 with fadeOut',
+
+        'show image alice21 with fadeIn',
+        'The first thing I’ve got to do is to grow to my right size again',
+        'An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her',
+        'hide image alice21 with fadeOut',
+
+        'show image alice22 with fadeIn',
+        'She stretched herself up on tiptoe, and peeped over the edge of the mushroom',
+        'her eyes immediately met those of a large blue caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah',
+        'at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice',
+        '"Who are you?" said the Caterpillar',
+        'hide image alice22 with fadeOut',
+
+        'show image alice23 with fadeIn',
+        '', 
+        'hide image alice23 with fadeOut',
+
+        'show image alice24 with fadeIn',
+        '', 
+        'hide image alice24 with fadeOut',
+
+        'show image alice25 with fadeIn',
+        '', 
+        'hide image alice25 with fadeOut',
+
+        'show image alice26 with fadeIn',
+        '', 
+        'hide image alice26 with fadeOut',
+
+        'show image alice27 with fadeIn',
+        '', 
+        'hide image alice27 with fadeOut',
 
         'jump end'
     ],
