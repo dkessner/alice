@@ -37,8 +37,12 @@
 body {
     background-color: black;
     font-family: 'aquiline', serif;
-    font-size: 250%;
+    /*font-size: 250%;*/
     color: white;
+}
+
+p {
+    font-size: 200%;
 }
 
 .modal__content {
@@ -125,7 +129,6 @@ button:hover {
 
 /* Text Box styling */
 [data-component="text-box"] {
-
 }
 
 /* Character Name Style */

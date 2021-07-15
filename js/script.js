@@ -458,12 +458,12 @@ monogatari.component ('main-screen').template (() => {
     return `
         <h1>Alice</h1>
         <br/> 
-        <small>
+        <p>
         Lewis Carroll's original drawings, accompanied by text from later published versions of Alice in Wonderland.
-        </small>
+        </p>
         <br/> 
         <center>
-        <img src="assets/images/Lewis-Carroll-Alice-Under-Ground-1.jpg" height="40%"/>
+        <img src="assets/images/Lewis-Carroll-Alice-Under-Ground-1.jpg" height="30%"/>
         </center>
 
         <main-menu></main-menu>
