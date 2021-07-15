@@ -110,6 +110,10 @@ button:hover {
 [data-component="save-slot"] button {
 }
 
+[data-component="save-slot"] .badge {
+    font-size: 200%;
+}
+
 /**
  * ===========================
  * Game Elements Styling
