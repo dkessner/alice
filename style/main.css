@@ -162,13 +162,13 @@ button:hover {
 /* Quick Menu Style */
 [data-component="quick-menu"] {
     font-family: 'aquiline';
-    height: 5rem;
-    max-height: 5rem;
+/*    height: 5rem;
+    max-height: 5rem;*/
 }
 
 /* Quick Menu Buttons Style */
 [data-component="quick-menu"] span {
-    font-size: 200%;
+/*    font-size: 200%; */
 }
 
 /* Quick Menu Buttons Style on Hover */
@@ -240,9 +240,8 @@ input[type=range]::-ms-fill-upper {
     }
 
     p {
-        font-size: 100%;
+        font-size: 200%;
     }
-
 
 	/* Styles for the desktop version of the Quick Menu */
 
