@@ -234,9 +234,15 @@ input[type=range]::-ms-fill-upper {
 /** Medium Screens, Phablets (601px) **/
 @media screen and (min-width: 37.56255em) {
 
+    /* dk: fixes problem with main menu drawn larger than screen height */
     [data-screen="main"] {
         height: 100%;
     }
+
+    p {
+        font-size: 100%;
+    }
+
 
 	/* Styles for the desktop version of the Quick Menu */
 
