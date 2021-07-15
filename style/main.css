@@ -37,7 +37,7 @@
 body {
     background-color: black;
     font-family: 'aquiline', serif;
-    font-size: 200%;
+    font-size: 250%;
     color: white;
 }
 
@@ -125,7 +125,7 @@ button:hover {
 
 /* Text Box styling */
 [data-component="text-box"] {
-    font-size: 200%;
+
 }
 
 /* Character Name Style */

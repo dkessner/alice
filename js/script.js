@@ -31,14 +31,17 @@ monogatari.action ('canvas').objects ({
 
 });
 
+
+const creditText = 
+
 // Credits of the people involved in the creation of this awesome game
 monogatari.configuration ('credits', {
-    Developers: {
-        coder: '<a href="http://dkessner.github.io" target="_blank">Darren Kessner</a>',
-    },
 
-    Resources: {
-        text: '<a href="https://www.gutenberg.org" target="_blank">Project Gutenberg</a>',
+   'This project was created by <a href="https://dkessner.github.io" target="_blank">Darren Kessner</a>, using free and open source software and public domain resources, and is dedicated to my niece Alice.'
+    : {
+        code: '<a href="https://github.com/dkessner/alice" target="_blank">https://github.com/dkessner/alice</a>',
+        "visual novel engine": '<a href="https://monogatari.io" target="_blank">Monogatari</a>',
+        text: '<a href="https://www.gutenberg.org/ebooks/11" target="_blank">Project Gutenberg</a>',
         images: '<a href="https://publicdomainreview.org/collection/carroll-illustrations-for-alice-undergound" target="_blank">Public Domain Review</a>',
     }
 });
@@ -106,7 +109,6 @@ monogatari.characters ({
 const myscript = 
 {
     'Start': [
-        'Alice',
         'show image cat with fadeIn',
         '',
         'hide image cat with fadeOut',
@@ -452,5 +454,19 @@ monogatari.script ({
 });
 */
 
+monogatari.component ('main-screen').template (() => {
+    return `
+        <h1>Alice</h1>
+        <br/> 
+        <small>
+        Lewis Carroll's original drawings, accompanied by text from later published versions of Alice in Wonderland.
+        </small>
+        <br/> 
+        <center>
+        <img src="assets/images/Lewis-Carroll-Alice-Under-Ground-1.jpg" height="40%"/>
+        </center>
 
+        <main-menu></main-menu>
+    `;
+});
 
