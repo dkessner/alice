@@ -163,9 +163,13 @@ button:hover {
     font-family: 'aquiline';
 }
 
+[data-component="quick-menu"] button {
+    font-size: 100%; 
+}
+
 /* Quick Menu Buttons Style */
 [data-component="quick-menu"] span {
-/*    font-size: 200%; */
+/*    font-size: 200%; */ /* dk: don't try this */
 }
 
 /* Quick Menu Buttons Style on Hover */
