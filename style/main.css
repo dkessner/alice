@@ -37,11 +37,17 @@
 body {
     background-color: black;
     font-family: 'aquiline', serif;
+    font-size: 200%;
+    color: white;
 }
+
+.modal__content {
+    background-color: grey;
+}
+
 
 /* Simple Button styles*/
 button {
-    font-size: 300%;
     height: 125%;
 }
 
@@ -76,6 +82,12 @@ button:hover {
  * ===========================
 **/
 
+[data-component="save-slot"] {
+    background: grey;
+    font-size: 200%;
+}
+
+
 /* Slots Style */
 [data-component="save-slot"] figure {
 
@@ -93,7 +105,6 @@ button:hover {
 
 /* Slots Delete Button Style */
 [data-component="save-slot"] button {
-
 }
 
 /**
@@ -124,7 +135,7 @@ button:hover {
 
 /* Style for Centered Text */
 [data-component="centered-dialog"] {
-
+    background-color: grey;
 }
 
 /* Character Images Styles */
@@ -173,12 +184,27 @@ button:hover {
  * ===========================
 **/
 
+
+input[type=text] {
+    background: grey;
+};
+
+
+save-screen input {
+    background: grey;
+};
+
+input[type=range] {
+    background-color: grey;
+};
+
+
 /* Use the background property to set a color for these */
 input[type=range]:focus::-webkit-slider-runnable-track {
-
 }
 
 input[type=range]::-webkit-slider-runnable-track {
+    background-color: grey;
 
 }
 
