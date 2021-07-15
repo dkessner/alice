@@ -33,7 +33,14 @@ monogatari.action ('canvas').objects ({
 
 // Credits of the people involved in the creation of this awesome game
 monogatari.configuration ('credits', {
+    Developers: {
+        coder: '<a href="http://dkessner.github.io" target="_blank">Darren Kessner</a>',
+    },
 
+    Resources: {
+        text: '<a href="https://www.gutenberg.org" target="_blank">Project Gutenberg</a>',
+        images: '<a href="https://publicdomainreview.org/collection/carroll-illustrations-for-alice-undergound" target="_blank">Public Domain Review</a>',
+    }
 });
 
 
