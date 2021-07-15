@@ -100,7 +100,6 @@ const myscript =
 {
     'Start': [
         'Alice',
-        'jump main',
         'show image cat with fadeIn',
         '',
         'hide image cat with fadeOut',
@@ -109,7 +108,6 @@ const myscript =
     ],
 
     'main': [
-        /*
 
         'show image alice1 with fadeIn',
         '"What is the use of a book", thought Alice, "without pictures or conversations?"',
@@ -323,41 +321,58 @@ const myscript =
         '"take this young lady to see the Mock Turtle, and to hear his history"',
         'hide image alice35 with fadeOut',
 
-*/
-    // current
-
         'show image alice36 with fadeIn',
-        '',
+        '"This here young lady," said the Gryphon, "she wants for to know your history, she do."',
+        `"I'll tell it her," said the Mock Turtle in a deep, hollow tone: "sit down, both of you, and don’t speak a word till I’ve finished."`,
+        '"Once," said the Mock Turtle at last, with a deep sigh, "I was a real Turtle."',
         'hide image alice36 with fadeOut',
 
+
+
         'show image alice37 with fadeIn',
-        '',
+        '"You may not have lived much under the sea, so you can have no idea what a delightful thing a Lobster Quadrille is!"',
+        '"No, indeed," said Alice. "What sort of a dance is it?"',
         'hide image alice37 with fadeOut',
+        
 
         'show image alice38 with fadeIn',
-        '',
+        'So they began solemnly dancing round and round Alice',
+        `Will you, won't you, will you, won't you, won't you join the dance?`,
         'hide image alice38 with fadeOut',
 
         'show image alice39 with fadeIn',
-        '',
+        'The trial’s beginning!',
+        'near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other',
+        'In the very middle of the court was a table, with a large dish of tarts upon it',
         'hide image alice39 with fadeOut',
 
         'show image alice40 with fadeIn',
-        '',
+        '"No, no!" said the Queen. "Sentence first — verdict afterwards."',
+        '"Stuff and nonsense!" said Alice loudly. "The idea of having the sentence first!"',
+        '"Hold your tongue!" said the Queen, turning purple.',
+        `"I won’t!" said Alice.`,
+        '"Off with her head!" the Queen shouted at the top of her voice. Nobody moved.',
         'hide image alice40 with fadeOut',
 
         'show image alice41 with fadeIn',
-        '',
+        `"Wake up, Alice dear!" said her sister; "Why, what a long sleep you've had!"`,
+        `"Oh, I've had such a curious dream!" said Alice`,
+        'this same little sister of hers would, in the after-time, be herself a grown woman',
+        'she would keep, through all her riper years, the simple and loving heart of her childhood',
+        'she would gather about her other little children and make their eyes bright and eager with many a strange tale', 
+        'perhaps even with the dream of Wonderland of long ago',
+        'how she would feel with all their simple sorrows, and find a pleasure in all their simple joys', 
+        'remembering her own child-life, and the happy summer days',
         'hide image alice41 with fadeOut',
-
-        'show image alice42 with fadeIn',
-        '',
-        'hide image alice42 with fadeOut',
-
+        'wait 3000',
         'jump end'
     ],
     
     'end': [
+        'show image cat with fadeIn',
+        '',
+        'hide image cat with fadeOut',
+        'wait 2000',
         'end'
     ]
 };
