@@ -456,10 +456,12 @@ monogatari.script ({
 
 monogatari.component ('main-screen').template (() => {
     return `
-        <h1>Alice</h1>
+        <h1>Alice's Adventures</h1>
         <br/> 
         <p>
-        Lewis Carroll's original drawings, accompanied by text from later published versions of Alice in Wonderland.
+        Lewis Carroll's original drawings
+        <br>
+        with text from Alice in Wonderland
         </p>
         <br/> 
         <center>
