@@ -109,14 +109,37 @@ monogatari.characters ({
 const myscript = 
 {
     'Start': [
+        {
+            'Choice': 
+            {
+                '1': {
+                    'Text': 'Chapter 1',
+                    'Do': 'jump chapter1'
+                },
+                '2': {
+                    'Text': 'Chapter 2',
+                    'Do': 'jump chapter2'
+                },
+                '3': {
+                    'Text': 'Chapter 3',
+                    'Do': 'jump chapter3'
+                },
+                '4': {
+                    'Text': 'Chapter 4',
+                    'Do': 'jump chapter4'
+                }
+            }
+        },
+
         'show image cat with fadeIn',
         '',
         'hide image cat with fadeOut',
         'wait 2000',
-        'jump main',
+
+        'jump chapter1',
     ],
 
-    'main': [
+    'chapter1': [
 
         'show image alice1 with fadeIn',
         '"What is the use of a book", thought Alice, "without pictures or conversations?"',
@@ -172,7 +195,10 @@ const myscript =
         'there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures',
         'Alice led the way, and the whole party swam to the shore',
         'hide image alice10 with fadeOut',
+    ],
 
+    'chapter2':
+    [
         'show image alice11 with fadeIn',
         'They were indeed a queer-looking party that assembled on the bank',
         'the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable',
@@ -223,7 +249,10 @@ const myscript =
         'Hold up his head.  Brandy now.  Don’t choke him', 
         'How was it, old fellow? What happened to you? Tell us all about it!',
         'hide image alice20 with fadeOut',
+    ],
 
+    'chapter3':
+    [
         'show image alice21 with fadeIn',
         'The first thing I’ve got to do is to grow to my right size again',
         'An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her',
@@ -296,7 +325,10 @@ const myscript =
         `"How do you know I'm mad?" said Alice`,
         `"You must be," said the Cat, "or you wouldn't have come here."`,
         'hide image alice30 with fadeOut',
+    ],
 
+    'chapter4':
+    [
         'show image alice31 with fadeIn',
         '"Would you tell me," said Alice, a little timidly, "why you are painting those roses?"',
         'The Queen! The Queen!',
@@ -311,8 +343,6 @@ const myscript =
         'The Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed "Off with her head!"',
         '"Are their heads off?" shouted the Queen.  "Can you play croquet?"',
         'hide image alice33 with fadeOut',
-
-
 
         'show image alice34 with fadeIn',
         'Alice thought she had never seen such a curious croquet-ground in her life',
@@ -332,13 +362,10 @@ const myscript =
         '"Once," said the Mock Turtle at last, with a deep sigh, "I was a real Turtle."',
         'hide image alice36 with fadeOut',
 
-
-
         'show image alice37 with fadeIn',
         '"You may not have lived much under the sea, so you can have no idea what a delightful thing a Lobster Quadrille is!"',
         '"No, indeed," said Alice. "What sort of a dance is it?"',
         'hide image alice37 with fadeOut',
-        
 
         'show image alice38 with fadeIn',
         'So they began solemnly dancing round and round Alice',

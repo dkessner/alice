@@ -68,6 +68,10 @@ small {
    font-size: 200%; 
 }
 
+[data-component="choice-container"] {
+   font-size: 150%; 
+}
+
 
 
 /**
