@@ -130,16 +130,14 @@ const myscript =
                 }
             }
         },
+    ],
+
+    'chapter1': [
 
         'show image cat with fadeIn',
         '',
         'hide image cat with fadeOut',
         'wait 2000',
-
-        'jump chapter1',
-    ],
-
-    'chapter1': [
 
         'show image alice1 with fadeIn',
         '"What is the use of a book", thought Alice, "without pictures or conversations?"',
