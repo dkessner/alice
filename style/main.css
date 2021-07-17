@@ -72,12 +72,12 @@ button:hover {
 
 /* Main Menu Styling */
 [data-screen="main"] {
-
+    height: 100%;
 }
 
 /* Main Menu Buttons Styling */
 [data-screen="main"] button {
-    font-size:200%;
+    font-size:150%;
 }
 
 /**
